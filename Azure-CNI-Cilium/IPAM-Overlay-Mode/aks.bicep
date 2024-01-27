@@ -34,9 +34,9 @@ resource aksCluster 'Microsoft.ContainerService/managedClusters@2023-03-02-previ
       networkPluginMode: 'overlay'
       networkDataplane: 'cilium'
       networkPolicy: 'cilium'
-      podCidr: '10.0.0.0/16'
-      serviceCidr: '10.10.0.0/24'
-      dnsServiceIP: '10.10.0.10'
+      podCidr: '10.10.0.0/21'
+      serviceCidr: '10.20.0.0/24'
+      dnsServiceIP: '10.20.0.10'
     }
     kubernetesVersion: kubernetesVersion
     enableRBAC: enableRBAC
