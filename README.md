@@ -11,7 +11,6 @@ This repo will discuss how to deploy **Cilium on AKS clusters with Bicep**:
 
 You will also get to learn how to deploy an AKS cluster using the other AKS CNI's like:
 
-* Kubenet in IPv4 and Dual Stock mode
 * Bring your own CNI (BYOCNI)
 * Bring your own CNI (BYOCNI) with Azure Linux as the host OS
 
