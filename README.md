@@ -22,7 +22,7 @@ Go to the Subscription blade, navigate to "Usage + Quotas", and make sure you ha
 
 # How to get going with Bicep?
 
-* az group create --name <name> --location <locationname>
-* az deployment group validate -f aks.bicep -p aks.bicepparam -g <resourcegroup>
-* az deployment group create -f aks.bicep -p aks.bicepparam -g <resourcegroup>
-* az group delete --name <resourcegroup>
+* az group create --name $name --location $locationname
+* az deployment group validate -f aks.bicep -p aks.bicepparam -g $resourceGroup
+* az deployment group create -f aks.bicep -p aks.bicepparam -g $resourceGroup
+* az group delete --name $resourceGroup
