@@ -1,5 +1,5 @@
 using 'aks.bicep'
 
-param clusterName = 'azpcolayalbicep'
-param kubernetesVersion = '1.27.7'
-param prefix = 'azpcolayal'
+param clusterName = 'azpcolalbp'
+param kubernetesVersion = '1.29'
+param prefix = 'azpcolalbp'
