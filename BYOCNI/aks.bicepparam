@@ -1,5 +1,5 @@
 using 'aks.bicep'
 
-param clusterName = 'byocnibicep'
-param kubernetesVersion = '1.27.7'
-param prefix = 'byocni'
+param clusterName = 'byocnibp'
+param kubernetesVersion = '1.29'
+param prefix = 'byocnibp'
