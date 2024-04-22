@@ -1,5 +1,5 @@
 using 'aks.bicep'
 
-param clusterName = 'ie4cbicep'
-param kubernetesVersion = '1.27.7'
-param prefix = 'ie4c'
+param clusterName = 'ie4cbp'
+param kubernetesVersion = '1.29'
+param prefix = 'ie4cbp'
