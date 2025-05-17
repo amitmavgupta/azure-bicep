@@ -70,7 +70,7 @@ resource aksCluster 'Microsoft.ContainerService/managedClusters@2025-03-01' = {
   }
 }
 
-resource extensionResource 'Microsoft.KubernetesConfiguration/extensions@2025-03-01' = {
+resource extensionResource 'Microsoft.KubernetesConfiguration/extensions@2024-11-01' = {
   name: 'cilium'
   scope: aksCluster
   plan: {
