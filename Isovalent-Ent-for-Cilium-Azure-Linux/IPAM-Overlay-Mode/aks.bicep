@@ -22,7 +22,7 @@ param maxCount int = 3
 @description('Prefix for deployment')
 param prefix string
 
-resource aksCluster 'Microsoft.ContainerService/managedClusters@2023-03-02-preview' = {
+resource aksCluster 'Microsoft.ContainerService/managedClusters@2025-03-01' = {
   name: '${prefix}-${clusterName}'
   location: location
   identity: {
