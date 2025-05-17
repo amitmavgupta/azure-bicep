@@ -18,6 +18,7 @@ Go to the Subscription blade, navigate to "Usage + Quotas", and make sure you ha
 
 * name=aksbicep
 * locationname=canadacentral
+* resourceGroup=aksbicep
 * az group create --name $name --location $locationname
 * az deployment group validate -f aks.bicep -p aks.bicepparam -g $resourceGroup
 * az deployment group create -f aks.bicep -p aks.bicepparam -g $resourceGroup
