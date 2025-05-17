@@ -22,7 +22,7 @@ param maxCount int = 3
 @description('Prefix for deployment')
 param prefix string
 
-resource vnet 'Microsoft.Network/virtualNetworks@2022-11-01' = {
+resource vnet 'Microsoft.Network/virtualNetworks@2024-07-01' = {
   name: '${prefix}-aks-vnet'
   location: location
   properties: {
@@ -34,7 +34,7 @@ resource vnet 'Microsoft.Network/virtualNetworks@2022-11-01' = {
   }
 }
 
-resource aks_subnet 'Microsoft.Network/virtualNetworks/subnets@2022-11-01' = {
+resource aks_subnet 'Microsoft.Network/virtualNetworks/subnets@2024-07-01' = {
   name: '${prefix}-aks-subnet'
   parent: vnet
   properties: {
@@ -42,7 +42,7 @@ resource aks_subnet 'Microsoft.Network/virtualNetworks/subnets@2022-11-01' = {
   }
 }
 
-resource aksCluster 'Microsoft.ContainerService/managedClusters@2023-03-02-preview' = {
+resource aksCluster 'Microsoft.ContainerService/managedClusters@2025-03-01' = {
   name: '${prefix}-${clusterName}'
   location: location
   identity: {
