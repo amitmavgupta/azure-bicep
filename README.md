@@ -1,5 +1,5 @@
 # What is the main purpose of the repo?
-This repo will discuss how to deploy **Cilium on AKS clusters with Bicep**:
+This repo will discuss how to deploy **AKS clusters with Bicep**:
 
 * Bring your own CNI (BYOCNI)
 * Bring your own CNI (BYOCNI) with Dual Stack
